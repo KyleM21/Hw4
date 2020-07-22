@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--File:  BSfood.html
+	Name: Kyle Marcoux
+    Email: kyle_marcoux@student.uml.edu
+    Umass Lowell 91.61 GUI Programming 1
+    Created 7/18/20
+    This is a page about some food I had recently!  It was a really good sandwich.
+-->
+
+<!-- The language of this page is English -->
+<html lang="en">
+<head>
+	<title>Food Review</title>
+		
+	<link rel="stylesheet" href="bsfood.css">
+	<!-- This is the call to the stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="container">
+		<h1>Some good food I had recently!</h1>
+		<h2>Buffalo Wild Wings's Southwestern Chicken Sandwich</h2>
+
+		<!--Image for sandwich-->
+		
+		<img "shadow p-3 mb-5 bg-white rounded" src="hw4files/chickensandwich.png" alt="Chicken" width="450" height="250" class="rounded mx-auto d-block">
+		<p>Source: Buffalo Wild Wing's 
+			<a href="https://www.buffalowildwings.com/en/food/mains/sandwiches/southern-chicken-sandwich/">Website</a> </p>  
+		<h4>My rating for the sandwich:</h4>
+
+
+		<!-- I got this image from shuttershock -->
+		<img style = "border:none; background-image:none;" src="hw4files/stars.png" alt="Stars" width="100" height="20" class="rounded mx-auto d-block"> 
+		
+		<p id = "p2" class="text-danger bg-dark rounded">Warning: This can be pretty spicy depending on how much ranch they put on!<br>  
+			I had one the other day that by chance, had extra ranch on it, and was way spicier then usual!</p>
+
+		<!-- paragraph with paragraph id = p1 -->
+		<p id="p1" >This was a really good sandwich, I got it from Buffalo Wild Wings.  
+		It has some spicy ranch, coleslaw, pickles, a cripsy chicken breast, and some swiss cheese!
+		Honestly I've been getting them at BWW the past couple of times I've gone, it's been my
+		recent food addiction! Highly recommend it if you like spicy chicken sandwiches!  It's not 
+		too spicy, just enough for a sandiwch, it wouldn't hold up against any kind of spicy wing.
+		The only thing I would have to say that is negative is that the bun can get soggy if you 
+		let it sit for too long.  So if you pick it up for some of that quarintine lunch, you gotta 
+		eat it rightwhen you get home.  I've gotten distracted by chores and such and one time the 
+		bun was soggy because of the ranch!  I still give it 5 stars because that was my own fault, 
+		but I thought the bun would last longer then that!!!
+		</p>
+		
+		<div class="col text-center">
+			<button id="tablebutton" type="button" class="btn btn-dark center" data-toggle="collapse" data-target="#table">Table of foods I've had at BDubs!</button>
+		</div>
+		
+		<table id="table" class="table table-striped collapse">
+			<thead>
+			  <tr>
+				<th>Food</th>
+				<th>Price</th>
+				<th>Rating</th>
+				<th>Description</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td>Southwestern Chicken Sandwich</td>
+				<td>$11.99</td>
+				<td>5/5</td>
+				<td>Chicken sandwich with coleslaw and southwestern ranch</td>
+			  </tr>
+			  <tr>
+				<td>Cheese Curd Bacon Burger</td>
+				<td>$12.99</td>
+				<td>5/5</td>
+				<td>Really big burger, cheese curds and bacon and its sooo good.</td>
+			  </tr>
+			  <tr>
+				<td>Chipotle BBQ Wings 10 ct. w/Fries</td>
+				<td>$9.99</td>
+				<td>5/5</td>
+				<td>Somewhat spicey wings, goes great with southwestern ranch!</td>
+			  </tr>
+			  <tr>
+				<td>House Sampler</td>
+				<td>$15.99</td>
+				<td>4/5</td>
+				<td>Wings, mozerella sticks, onion rings, nachos! It's great if you order it at the resturaunt but if 
+					you get this as takeout some of the food gets soggy on the drive home, especially the nachos</td>
+			  </tr>
+			  <tr>
+				<td>Street Tacos</td>
+				<td>$6.49</td>
+				<td>4/5</td>
+				<td>Mini spicy chicken tacos!  They're great when their fresh</td>
+			  </tr>
+			  <tr>
+				<td>All Star Sampler [Removed from menu]</td>
+				<td>$15.99</td>
+				<td>5/5</td>
+				<td>They had a sampler before that was chili fries, fried pickles, boneless wings, and spinach 
+					artichoke dip w/chips.  It was a favorite that my girlfriend and I got every time before they 
+					removed it.  Gone but not forgotten! </td>
+			  </tr>
+			</tbody>
+		</table>
+		
+
+				
+            
+		
+		<h5>About the Reviewer:</h5>
+
+		<!-- picture of me -->
+		<a href="BSindex.html"><img src="hw4files/me.png" alt="Kyle" width="74" height="67" class="rounded mx-auto d-block">  </a>
+		<p>Kyle Marcoux, I like food.</p>
+
+
+		
+		<form id="form" class="collapse multi-collapse">
+			<div class="form-group">
+				<label for="name">Name</label>
+				<input type="name" class="form-control" id="name" placeholder="Name">
+			</div>
+			<div class="form-group">
+				<label for="email">Email address</label>
+				<input type="email" class="form-control" id="email" placeholder="Email">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlSelect1">Rating</label>
+					<select class="form-control" id="exampleFormControlSelect1">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+					</select>
+			</div>
+			<div class="form-group">
+				<label for="Description">Description</label>
+				<textarea class="form-control" id="Description" rows="3"></textarea>
+			</div>
+			<div class="col text-center">
+				<button id="tablebutton" type="button" class="btn btn-dark center" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="form form2">Submit!</button>
+			</div>
+		</form>
+		
+		<div class="collapse multi-collapse" id="form2">
+			<p id="form2" data-toggle="collapse">Thank you for your suggestion!</p>
+		</div>
+		
+		<div class="col text-center">
+			<button id="tablebutton" type="button" class="btn btn-dark center" data-toggle="collapse" data-target="#form">Have a suggestion?</button>
+		</div>
+
+
+
+			<footer>
+				Background image created by: Me! Using GIMP
+			</footer>    
+				
+			<!-- Icon that certifies that I passed the W3C CSS validator-->
+			<div class="container text-center">	
+				<a href="https://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px"
+						src="https://jigsaw.w3.org/css-validator/images/vcss"
+						alt="Valid CSS!" />
+				</a>
+			</div>
+
+
+					
+					
+		
+
+	</div>
+</body>
+</html>
