@@ -5,6 +5,7 @@
     Umass Lowell 91.61 GUI Programming 1
     Created 7/18/20
     This is a page about some food I had recently!  It was a really good sandwich.
+	Changes from Assignment 2 will be described in the readme!
 -->
 
 <!-- The language of this page is English -->
@@ -27,7 +28,7 @@
 
 		<!--Image for sandwich-->
 		
-		<img "shadow p-3 mb-5 bg-white rounded" src="hw4files/chickensandwich.png" alt="Chicken" width="450" height="250" class="rounded mx-auto d-block">
+		<img class="shadow p-3 mb-5 bg-white rounded mx-auto d-block" src="hw4files/chickensandwich.png" alt="Chicken" width="450" height="250" >
 		<p>Source: Buffalo Wild Wing's 
 			<a href="https://www.buffalowildwings.com/en/food/mains/sandwiches/southern-chicken-sandwich/">Website</a> </p>  
 		<h4>My rating for the sandwich:</h4>
@@ -123,15 +124,15 @@
 		<form id="form" class="collapse multi-collapse">
 			<div class="form-group">
 				<label for="name">Name</label>
-				<input type="name" class="form-control" id="name" placeholder="Name">
+				<input class="form-control" id="name" placeholder="Name">
 			</div>
 			<div class="form-group">
-				<label for="email">Email address</label>
-				<input type="email" class="form-control" id="email" placeholder="Email">
+				<label for="email">Email</label>
+				<input class="form-control" id="email" placeholder="Email">
 			</div>
 			<div class="form-group">
-				<label for="exampleFormControlSelect1">Rating</label>
-					<select class="form-control" id="exampleFormControlSelect1">
+				<label for="rating">Rating</label>
+					<select class="form-control" id="rating">
 						<option>1</option>
 						<option>2</option>
 						<option>3</option>
@@ -144,16 +145,16 @@
 				<textarea class="form-control" id="Description" rows="3"></textarea>
 			</div>
 			<div class="col text-center">
-				<button id="tablebutton" type="button" class="btn btn-dark center" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="form form2">Submit!</button>
+				<button id="submitbutton" type="button" class="btn btn-dark center" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="form form2">Submit!</button>
 			</div>
 		</form>
 		
 		<div class="collapse multi-collapse" id="form2">
-			<p id="form2" data-toggle="collapse">Thank you for your suggestion!</p>
+			<p data-toggle="collapse">Thank you for your suggestion!</p>
 		</div>
 		
 		<div class="col text-center">
-			<button id="tablebutton" type="button" class="btn btn-dark center" data-toggle="collapse" data-target="#form">Have a suggestion?</button>
+			<button id="formbutton" type="button" class="btn btn-dark center" data-toggle="collapse" data-target="#form">Have a suggestion?</button>
 		</div>
 
 

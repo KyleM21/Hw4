@@ -59,7 +59,7 @@ a textbox around it, a fancy first letter, and a background -->		*/
 				  
 #p2	{
 		text-shadow: 2px 2px black;
-		margin: 15px 20px 15px 20px;
+		margin: 15px 150px 15px 150px;
 		padding-bottom: 5px;
 }
 				  
@@ -68,7 +68,10 @@ footer{	text-align: center;
 		color: darkslategray;				
 		font-size: 75%;
 		font-style: italic; 
-		margin-bottom: 15px;
+		margin: 15px 300px 15px 300px;
+		border-style: solid;
+		border-radius: 5px;
+		background-image: url(hw4files/fill.png);
 }
 		
 ul	{	
@@ -96,5 +99,8 @@ tr{
 	color: darkslategray;
 }
 #tablebutton{
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
+#formbutton{
+	margin-top:5px;

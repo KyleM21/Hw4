@@ -32,10 +32,13 @@ h5  {	text-align: center;
 		color: darkslategray;
 }
 		
-p   {	margin: 10px;
+p   {	margin: 10px 150px 10px 150px;
 		text-align: center;
 		font-family: verdana;
 		color: darkslategray;
+		border-style: solid;
+		border-radius: 5px;
+		background-image: url(hw4files/fill.png);
 }
 		
 
