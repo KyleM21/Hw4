@@ -1,0 +1,100 @@
+body{	text-align: center;
+		font-family:verdana;
+		background: darkgrey;	
+		background-image: url(hw4files/background.png);
+		background-size:100% 100%;
+}
+		
+h1  {	text-align: center;
+		font-family: verdana;
+		color: darkslategray;
+		font-weight: bold;
+		text-shadow: 2px 2px black;
+}
+		
+h2  {	text-align: center;
+		font-family:algerian;
+		color: darkslategray;
+}	
+		
+h3  {	text-align: center;
+		font-family: verdana;
+		color: darkslategray;
+}
+		
+h4  {	text-align: center;
+		font-family: verdana;
+		color: darkslategray;
+		font-size: 75%;
+		font-style: italic;
+}
+		
+h5  {	text-align: center;
+		font-family: verdana;
+		color: darkslategray;
+}
+		
+p   {	margin: 10px;
+		text-align: center;
+		font-family: verdana;
+		color: darkslategray;
+}
+		
+/*<!-- I made an ID for the paragraph in my food.html page because I wanted it to have
+a textbox around it, a fancy first letter, and a background -->		*/
+
+#p1 {	margin: 10px 150px 10px 150px;
+		display: block;
+		text-align: center;
+		font-family: verdana;
+		color: darkslategray;
+		border-style: solid;
+		border-radius: 5px;
+		background-image: url(hw4files/fill.png);
+		padding: 5px;
+}
+#p1::first-letter {	font-size: 150%;
+					font-family: algerian;
+}
+				  
+#p2	{
+		text-shadow: 2px 2px black;
+		margin: 15px 20px 15px 20px;
+		padding-bottom: 5px;
+}
+				  
+footer{	text-align: center;
+		font-family: verdana;
+		color: darkslategray;				
+		font-size: 75%;
+		font-style: italic; 
+		margin-bottom: 15px;
+}
+		
+ul	{	
+		text-align: center;
+		font-family: verdana;
+		color: ghostwhite;
+}
+		
+img {
+		border: 5px solid darkslategrey;
+		background-image: url(hw4files/fill.png);
+		border-radius: 5px;
+		margin: 10px 0px 10px 0px;
+}
+a:hover{
+	color:red;
+}
+
+table{
+	background:url(hw4files/fill.png);
+	text-align: center;
+	font-family: verdana;
+}
+tr{
+	color: darkslategray;
+}
+#tablebutton{
+	margin-bottom: 20px;
+}
